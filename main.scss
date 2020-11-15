@@ -1,0 +1,263 @@
+body.html {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  .row {
+     margin-bottom: 13%;
+    #squat {
+      width: 100%;
+      position: absolute;
+      top: -105px;
+      padding:5px;
+      border-radius: 0 0 105px 0;
+    }
+    .fab {
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+    // #first_btn {
+      
+    // }
+    #trainer {
+      font-weight: bold;
+    }
+    #head {
+      font-weight: bold;
+    }
+    .learn {
+      font-size: .875rem;
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        border-bottom: solid 1px #dc3545;
+        display: inline;
+        padding-bottom: 3px;
+      }
+    }
+  }
+}
+
+.container {
+  .row {
+    #fifty {
+      color:#fff;
+      font-weight: 500;
+      font-size: 1rem;
+      background-color:#dc3545;
+      width:16%;
+      border-radius: 5px 5px;
+      padding: 5px;
+    }
+    #book_gym {
+      font-weight: 500;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+    #lunges {
+      width: 100%;
+      padding:5px;
+      border-radius: 105px 0 0 0;
+    }
+    #join_btn {
+      
+    }
+  }
+}
+
+.container {
+  .row {
+    .fas {
+      margin-top: 45px;
+    }
+    #arrow_right {
+      color:#dc3545;
+      cursor: pointer;
+      font-size: 1.9rem;
+    }
+    #arrow_left {
+      cursor: pointer;
+      font-size: 1.9rem;
+    }
+  }
+}
+.container {
+  .row {
+    #service_package {
+      text-transform: capitalize;
+      font-weight: 500;
+      font-size: 1.5rem;
+    }
+    .card {
+      display: flex;
+      text-transform: capitalize;
+      font-weight: 500;
+      margin: 0 auto;
+      -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+    img {
+      width: 15%;
+    }
+  }
+}
+
+.container {
+  .row {
+    #trusted {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+    .fist_stars {
+      margin-top: -35px;
+      margin-bottom: 15px;
+    }
+    .fa-thumbs-up {
+      color: #dc3545;
+      font-size: 1.5rem;
+      margin-right: 15px;
+    }
+    .fa-star {
+      font-size: 1.2rem;
+      margin-left: 3px; 
+      color: rgb(185, 169, 19)
+    }
+    .learn_more {
+      font-size: 0.7rem;
+      color: #000;
+      font-weight: 700;
+      text-decoration: none;
+      &:hover {
+        border-bottom: solid 1px #dc3545;
+        display: inline;
+        padding-bottom: 2px;
+      }
+    }
+    #yogo {
+      width:100%;
+      border-radius: 0 105px 0 0;
+    }
+  }
+ }
+
+ .container {
+   .row {
+     #world_gym {
+       font-size: 2rem;
+       font-weight: 700;
+       text-transform: capitalize;
+     }
+   }
+ }
+
+ .container {
+   .row {
+    .ready {
+      font-size: 2rem;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+    .jib {
+      // font-weight: 500;
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+    .fa-envelope, .fa-phone{
+      color: #dc3545;
+      font-size: 0.8rem;
+    }
+    #jon {
+      margin-bottom: 0;
+    }
+    #jon, #number {
+      font-weight: 500;
+      font-size: 0.8rem; 
+    }
+    .mini_socials {
+      margin-left: 30px;
+    }
+    .mini_socials, .fab {
+      font-size: 0.8rem;
+    }
+    .reach_out {
+      font-size: 1.7rem;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+    .needs-validation {
+      .form-group {
+        label {
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+        input {
+          font-size: 0.8rem;
+        }
+       i {
+         color: #000;
+         font-size: 0.8rem;
+       }
+       textarea {
+         height: 80px;
+         width: 100%;
+         border-radius: 5px;
+       }
+       textarea[placeholder="Message"] {
+         font-size: 0.8rem;
+       }
+       #error_message {
+         color: #dc3545;
+         margin-top: 3px;
+         font-size: 0.8rem;
+       }
+      
+      .fa-user {
+        margin-left: 392px!important;
+      }.fa-at {
+        margin-left: 394px!important;
+      }
+      #send_it {
+        margin-left: 374px!important;
+        color: #000!important;
+      }
+      #last-btn {
+        
+      }
+     }
+    }
+  }
+ }
+
+ @media screen and (max-width:768px)  {
+  #trainer, #head, #first_para,#social_icons {
+    color: #fff;
+  }
+    #yogo {
+      margin-top: 25px;
+    }
+    video {
+      margin-left: 105px;
+      padding-bottom: 10px;
+    }
+    .reach_out {
+      text-align:center;
+    }
+    #first_half {
+      text-align: center;
+    }
+    label {
+      margin-right: 60px;
+    }
+    #worldwide {
+      text-align: center;
+    }
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1202px) {
+    .fa-user, .fa-at, #send_it {
+      display: none;
+    }
+  }

@@ -1,0 +1,179 @@
+body.html {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+
+.container .row {
+  margin-bottom: 13%; }
+  .container .row #squat {
+    width: 100%;
+    position: absolute;
+    top: -105px;
+    padding: 5px;
+    border-radius: 0 0 105px 0; }
+  .container .row .fab {
+    font-size: 1.4rem;
+    cursor: pointer; }
+  .container .row #trainer {
+    font-weight: bold; }
+  .container .row #head {
+    font-weight: bold; }
+  .container .row .learn {
+    font-size: .875rem;
+    color: #000;
+    text-decoration: none; }
+    .container .row .learn:hover {
+      border-bottom: solid 1px #dc3545;
+      display: inline;
+      padding-bottom: 3px; }
+
+.container .row #fifty {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #dc3545;
+  width: 16%;
+  border-radius: 5px 5px;
+  padding: 5px; }
+.container .row #book_gym {
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: capitalize; }
+.container .row #lunges {
+  width: 100%;
+  padding: 5px;
+  border-radius: 105px 0 0 0; }
+
+.container .row .fas {
+  margin-top: 45px; }
+.container .row #arrow_right {
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 1.9rem; }
+.container .row #arrow_left {
+  cursor: pointer;
+  font-size: 1.9rem; }
+
+.container .row #service_package {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.5rem; }
+.container .row .card {
+  display: flex;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75); }
+.container .row img {
+  width: 15%; }
+
+.container .row #trusted {
+  font-weight: 700;
+  font-size: 1.5rem; }
+.container .row .fist_stars {
+  margin-top: -35px;
+  margin-bottom: 15px; }
+.container .row .fa-thumbs-up {
+  color: #dc3545;
+  font-size: 1.5rem;
+  margin-right: 15px; }
+.container .row .fa-star {
+  font-size: 1.2rem;
+  margin-left: 3px;
+  color: #b9a913; }
+.container .row .learn_more {
+  font-size: 0.7rem;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none; }
+  .container .row .learn_more:hover {
+    border-bottom: solid 1px #dc3545;
+    display: inline;
+    padding-bottom: 2px; }
+.container .row #yogo {
+  width: 100%;
+  border-radius: 0 105px 0 0; }
+
+.container .row #world_gym {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize; }
+
+.container .row .ready {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize; }
+.container .row .jib {
+  font-size: 0.8rem;
+  margin-bottom: 0; }
+.container .row .fa-envelope, .container .row .fa-phone {
+  color: #dc3545;
+  font-size: 0.8rem; }
+.container .row #jon {
+  margin-bottom: 0; }
+.container .row #jon, .container .row #number {
+  font-weight: 500;
+  font-size: 0.8rem; }
+.container .row .mini_socials {
+  margin-left: 30px; }
+.container .row .mini_socials, .container .row .fab {
+  font-size: 0.8rem; }
+.container .row .reach_out {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: capitalize; }
+.container .row .needs-validation .form-group label {
+  font-size: 0.8rem;
+  font-weight: 500; }
+.container .row .needs-validation .form-group input {
+  font-size: 0.8rem; }
+.container .row .needs-validation .form-group i {
+  color: #000;
+  font-size: 0.8rem; }
+.container .row .needs-validation .form-group textarea {
+  height: 80px;
+  width: 100%;
+  border-radius: 5px; }
+.container .row .needs-validation .form-group textarea[placeholder="Message"] {
+  font-size: 0.8rem; }
+.container .row .needs-validation .form-group #error_message {
+  color: #dc3545;
+  margin-top: 3px;
+  font-size: 0.8rem; }
+.container .row .needs-validation .form-group .fa-user {
+  margin-left: 392px !important; }
+.container .row .needs-validation .form-group .fa-at {
+  margin-left: 394px !important; }
+.container .row .needs-validation .form-group #send_it {
+  margin-left: 374px !important;
+  color: #000 !important; }
+
+@media screen and (max-width: 768px) {
+  #trainer, #head, #first_para, #social_icons {
+    color: #fff; }
+
+  #yogo {
+    margin-top: 25px; }
+
+  video {
+    margin-left: 105px;
+    padding-bottom: 10px; }
+
+  .reach_out {
+    text-align: center; }
+
+  #first_half {
+    text-align: center; }
+
+  label {
+    margin-right: 60px; }
+
+  #worldwide {
+    text-align: center; } }
+@media screen and (min-width: 768px) and (max-width: 1202px) {
+  .fa-user, .fa-at, #send_it {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
